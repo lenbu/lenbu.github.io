@@ -1,0 +1,120 @@
+/*RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* STYLES */
+body {background:#eff9d6;
+      font-family: 'Times New Roman', Times, serif;
+      margin: 5% 20%;
+}
+h1 {text-align: center;
+    color: #eff9d6  ;
+    font-size: 90px;  
+    background: #1b0326;  
+}
+h2:hover,a:hover,h1:hover,summary:hover {color: #7a1c4b  ;
+        
+}    
+header {background: #1b0326;}
+nav {font-variant: small-caps;
+    font-size: 32px;
+    text-align: center;
+    padding: 20px;
+}
+a  {color: #eff9d6;}
+h2 {text-align: left;
+    color: #eff9d6  ;
+    font-size: 40px;  
+    background: #1b0326;  
+    padding: 0 5px;
+    text-align: center;
+}
+
+section{color: #eff9d6;
+    background: #7a1c4b;
+    font-size: 20px;
+    display: inline-block;
+    width: 30%; 
+    height: 300px;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    
+    
+
+}
+details {font-style: italic;}
+summary {font-style: normal;}
+
+
+
+img {border: dotted 2px #7a1c4b;
+    border-radius: 10px;
+     display: block;
+     margin: 0 auto;
+}
+
+footer {color: #eff9d6;
+    background:#1b0326;
+    font-size: 20px;
+    font-variant: small-caps;
+    text-align: center;
+    display: block;
+    clear: both;
+    margin: 0 auto; 
+}
+/*
+========================================================================
+CLASSES
+========================================================================
+*/
+.death {width: 600px;border: ridge 8px #7a1c4b;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0;
+}
+.lance {width: 600px;border: ridge 8px #7a1c4b;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0;
+}
