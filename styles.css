@@ -1,0 +1,107 @@
+.36_83 { 
+	overflow:hidden;
+}
+.container { 
+	width:100%;
+	height:100%;
+	display: flex;
+	overflow: hidden;
+	position:absolute;
+	align-items: center;
+	justify-content: center;
+	background-color:rgba(255, 255, 255, 1);
+}
+.background { 
+	right: 0px;
+	bottom: 0px;
+	width: 100vw;
+	height: 100vh;
+	max-width:644px;
+	max-height:1024px;
+	position:absolute;
+	background-image:url(images/luben_pic_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.middle {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.rotator { 
+	width: 80vw;
+	height: 80vw;
+	max-width:400px;
+	max-height:400px;
+	margin-top: 15vh;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-image:url(images/middle_chain.png);
+	-webkit-animation:spin 10s linear infinite;
+	-moz-animation:spin 10s linear infinite;
+	animation:spin 10s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+.centered { 
+	width: 65vw;
+	height: 65vw;
+	max-width:250px;
+	max-height:250px;
+	margin-top: 15vh;
+	position:absolute;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-image:url(images/behance.png);
+}
+.leftbottom { 
+	left:0px;
+	width:40vw;
+	bottom: 0px;
+	height:40vw;
+	max-width: 200px;
+	max-height: 200px;
+	position:absolute;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-image:url(images/bot_left_chain.png);
+}
+.lefttop { 
+	left:0px;
+	top: 14vh;
+	width: 40vw;
+	height: 45vw;
+	max-width:220px;
+	max-height:240px;
+	position:absolute;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-image:url(images/top_left_chain.png);
+}
+.header { 
+	top:0px;
+	width:100%;
+	z-index: 999;
+	height:138px;
+	display: flex;
+	position:absolute;
+	background-size:cover;
+	justify-content: center;
+	background-repeat:no-repeat;
+	background-image:url(images/black_header.png);
+}
+.logo { 
+	top:4px;
+	width:419px;
+	height:130px;
+	background-image:url(images/hana.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.content {
+	width: 100%;
+	height: 100%;
+}
